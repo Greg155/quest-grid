@@ -1,0 +1,24 @@
+.bloc-container {
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    grid-template-rows: repeat(3,150px);
+    border: 1px solid black;
+    grid-gap : 10px;
+    text-align: center;
+  }
+  .bloc {
+    padding: 0.5em;
+    background-color: rgb(63, 153, 205);
+    border: 2px solid rgb(46, 120, 163);
+  }
+
+  #b1{
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+
+  #b2{
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  
